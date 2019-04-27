@@ -1,0 +1,198 @@
+.header1 {
+
+	background: #fea150;
+	color: #f7bd16 ;
+	height: 80px;
+}	
+	.header1 a {
+		color: white;
+	}
+
+.logo {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	.logo:hover {
+		color: #e84b2f ;
+	}
+	
+	.logo .titulo {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	.logo .descripcion {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #e84b2f;
+				}
+
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+.header1 {
+	background: #f79945;
+	color: #f7bd16 ;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.VendenosLemures{
+	position:relative;
+	left:23%;
+    width:610px;
+	border: 3px solid #000; 
+}
+
+h1,h2{
+	width:31%;
+	background:#93BEFF;  
+}
+
+.RecurseEmail {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.RecurseEmail:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
+	background:-moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6',GradientType=0);
+	background-color:#1e62d0;
+}
+.RecurseEmail:active {
+	position:relative;
+	top:1px;
+}
+
+.RecurseEmail {
+	position: relative;
+	left: 20px;
+	bottom: -40px;
+}
+
+.MandaUnMail p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	display: block;
+	margin: 0px 0px 0px 270px;
+}
+	.MandaUnMail p {
+		background: rgba(75,232,195,1);
+		background: -moz-linear-gradient(left, rgba(75,232,195,1) 0%, rgba(27,173,181,1) 47%, rgba(0,31,64,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(75,232,195,1)), color-stop(47%, rgba(27,173,181,1)), color-stop(100%, rgba(0,31,64,1)));
+		background: -webkit-linear-gradient(left, rgba(75,232,195,1) 0%, rgba(27,173,181,1) 47%, rgba(0,31,64,1) 100%);
+		background: -o-linear-gradient(left, rgba(75,232,195,1) 0%, rgba(27,173,181,1) 47%, rgba(0,31,64,1) 100%);
+		background: -ms-linear-gradient(left, rgba(75,232,195,1) 0%, rgba(27,173,181,1) 47%, rgba(0,31,64,1) 100%);
+		background: linear-gradient(to right, rgba(75,232,195,1) 0%, rgba(27,173,181,1) 47%, rgba(0,31,64,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4be8c3', endColorstr='#001f40', GradientType=1 ); 
+	}
+
+	.MandaUnMail p {
+		max-width: 1028px;
+		color: white;
+	}
+
+#ImageOfLemur {
+	display: block;
+	position: relative;
+	bottom: -30px;
+	margin: 0px 20px;
+}
+
+
+.titleSidebar {
+		font-size: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		color:rgba(255,230,0,1);	
+	}
+
+
+.contentSidebar {
+	font-size: 25px;
+	max-width: 400px;
+}
+
+h1 {
+	position: relative;
+	left: 500px;
+	max-width: 200px;
+}
+
